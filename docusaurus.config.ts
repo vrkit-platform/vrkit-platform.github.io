@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'VRKit Platform',
-  tagline: 'OpenXR Overlays without Overhead',
+  tagline: 'OpenXR Overlays w/o Overhead',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -30,6 +30,7 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  plugins: ['docusaurus-plugin-sass'],
 
   presets: [
     [
@@ -58,7 +59,7 @@ const config: Config = {
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: './src/css/custom.scss',
         },
       } satisfies Preset.Options,
     ],
@@ -66,23 +67,30 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // image: 'img/docusaurus-social-card.jpg',
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
     navbar: {
-      title: 'My Site',
+      // title: 'My Site',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'VRKit Logo',
         src: 'img/logo.svg',
       },
       items: [
-        {
+        {to: '/download', label: 'Download', position: 'left'},
+        {to: '/plugins', label: 'Plugins', position: 'left'},
+          {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Docs',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/vrkit-platform/vrkit-platform',
           label: 'GitHub',
           position: 'right',
         },

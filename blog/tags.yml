@@ -1,19 +1,14 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+General:
+  label: General
+  permalink: /general
+  description: General
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
-
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+VR:
+  label: VR
+  permalink: /VR
+  description: VR
+  
+XR:
+  label: XR
+  permalink: /XR
+  description: XR

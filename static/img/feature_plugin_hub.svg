@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="430"
+     style="width:100%;height:100%;transform:translate3d(0,0,0);content-visibility:visible" viewBox="0 0 430 430">
+    <defs>
+        <clipPath id="a">
+            <path d="M0 0h430v430H0z"/>
+        </clipPath>
+        <clipPath id="d">
+            <path d="M0 0h430v430H0z"/>
+        </clipPath>
+        <clipPath id="c">
+            <path d="M0 0h430v430H0z"/>
+        </clipPath>
+        <clipPath id="b">
+            <path d="M0 0h430v430H0z"/>
+        </clipPath>
+    </defs>
+    <g fill="none" clip-path="url(#a)">
+        <g clip-path="url(#b)" style="display:none">
+            <g style="display:none">
+                <path class="primary"/>
+                <path class="primary"/>
+                <path class="primary"/>
+                <path class="primary"/>
+            </g>
+            <g style="display:none">
+                <path class="primary"/>
+                <path class="primary"/>
+                <path class="primary"/>
+                <path class="primary"/>
+            </g>
+            <g style="display:none">
+                <path class="primary"/>
+                <path class="primary"/>
+                <path class="primary"/>
+                <path class="primary"/>
+            </g>
+            <g style="display:none">
+                <path class="primary"/>
+                <path class="primary"/>
+                <path class="primary"/>
+                <path class="primary"/>
+            </g>
+            <g style="display:none">
+                <path class="primary"/>
+                <path class="primary"/>
+                <path class="primary"/>
+                <path class="primary"/>
+            </g>
+            <path class="secondary" style="display:none"/>
+        </g>
+        <g clip-path="url(#c)" style="display:block">
+            <path stroke="#121331" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"
+                  d="M0 29.113v49.195M-29.113 0c0-16.078 13.035-29.113 29.113-29.113S29.113-16.078 29.113 0 16.078 29.113 0 29.113-29.113 16.078-29.113 0z"
+                  class="primary" style="display:block" transform="translate(215.255 83.993)"/>
+            <path stroke="#121331" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"
+                  d="M0 29.113v49.195M-29.113 0c0-16.078 13.035-29.113 29.113-29.113S29.113-16.078 29.113 0 16.078 29.113 0 29.113-29.113 16.078-29.113 0z"
+                  class="primary" style="display:block" transform="rotate(73 50.873 331.474)"/>
+            <path class="primary" style="display:none"/>
+            <path stroke="#121331" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"
+                  d="M0 29.113v49.195M-29.113 0c0-16.078 13.035-29.113 29.113-29.113S29.113-16.078 29.113 0 16.078 29.113 0 29.113-29.113 16.078-29.113 0z"
+                  class="primary" style="display:block" transform="rotate(145 94.386 219.958)"/>
+            <path stroke="#121331" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"
+                  d="M0 29.113v49.195M-29.113 0c0-16.078 13.035-29.113 29.113-29.113S29.113-16.078 29.113 0 16.078 29.113 0 29.113-29.113 16.078-29.113 0z"
+                  class="primary" style="display:block" transform="rotate(-145 120.869 152.089)"/>
+            <path stroke="#121331" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"
+                  d="M0 29.113v49.195M-29.113 0c0-16.078 13.035-29.113 29.113-29.113S29.113-16.078 29.113 0 16.078 29.113 0 29.113-29.113 16.078-29.113 0z"
+                  class="primary" style="display:block" transform="rotate(-73 164.383 40.573)"/>
+            <path stroke="#08A88A" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"
+                  d="M65.719 0c0 36.295-29.424 65.719-65.719 65.719-36.295 0-65.719-29.424-65.719-65.719 0-36.295 29.424-65.719 65.719-65.719 36.295 0 65.719 29.424 65.719 65.719z"
+                  class="secondary" style="display:block" transform="translate(215.255 228.02)"/>
+        </g>
+        <g clip-path="url(#d)" style="display:none">
+            <g style="display:none">
+                <path class="primary"/>
+                <path class="primary"/>
+            </g>
+            <g style="display:none">
+                <path class="primary"/>
+                <path class="primary"/>
+            </g>
+            <g style="display:none">
+                <path class="primary"/>
+                <path class="primary"/>
+            </g>
+            <g style="display:none">
+                <path class="primary"/>
+                <path class="primary"/>
+            </g>
+            <g style="display:none">
+                <path class="primary"/>
+                <path class="primary"/>
+            </g>
+            <path class="secondary" style="display:none"/>
+        </g>
+    </g>
+</svg>
