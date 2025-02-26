@@ -2,5 +2,6 @@
 sidebar_position: 2
 ---
 
-# Plugins
+# Dashboards
 
+Coming soon...

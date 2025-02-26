@@ -1,0 +1,8 @@
+{
+  "locales": ["en"],
+  "outDir": "./docs/plugin-api",
+  "localesDir": "./docs/i18n/{locale}/docusaurus-plugin-content-docs/current/api",
+  "sidebar": "./docs",
+  "jsdoc": "./jsdoc.json",
+  "bulma": false
+}

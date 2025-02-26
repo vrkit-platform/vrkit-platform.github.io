@@ -13,7 +13,7 @@ export default function PluginsPage() {
               fontSize: "20px"
             }}>
           <p>
-            Edit <code>pages/helloReact.js</code> and save to reload.
+            Coming soon.
           </p>
         </div>
       </Layout>
