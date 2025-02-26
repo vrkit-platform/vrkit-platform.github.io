@@ -2,9 +2,16 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+> NOTE: This entire platform is currently a work-in-progress (or WIP) &
+> is not yet ready for public use.
+> 
+> WITH REGARD TO PLUGINS, NO CONCERN HAS BEEN GIVEN TO SECURITY.
+> 
+> USE AT YOUR OWN RISK.
+
+A detailed dive into how to use __*VRKit*__ & what makes it so different.
 
 ## Getting Started
 

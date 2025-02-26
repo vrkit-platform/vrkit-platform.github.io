@@ -84,7 +84,7 @@ const config: Config = {
         {to: '/plugins', label: 'Plugins', position: 'left'},
           {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'mainSidebar',
           position: 'left',
           label: 'Docs',
         },

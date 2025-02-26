@@ -16,24 +16,27 @@
   
   --ifm-font-color-base-inverse: invert(#2e2e2e, 80%);
   
+  --ifm-menu-color-active: #bb78cf;
+  --ifm-breadcrumb-color-active: var(--ifm-menu-color-active);
+  
   --ifm-hero-text-color: #fff;
   --ifm-hero-height: calc(100vh - var(--ifm-navbar-height));
   
   --ifm-navbar-link-hover-color: rgba(255, 255, 255, 0.6);
   --ifm-code-font-size: 95%;
+  
+  
+  
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-///* For readability concerns, you should choose a lighter palette in dark mode. */
-//[data-theme='dark'] {
-//  --ifm-color-primary: #444b49;
-//  --ifm-color-primary-dark: #3d4342;
-//  --ifm-color-primary-darker: #3a403e;
-//  --ifm-color-primary-darkest: #303533;
-//  --ifm-color-primary-light: #4b5250;
-//  --ifm-color-primary-lighter: #4e5654;
-//  --ifm-color-primary-lightest: #58625f;
-//}
+#__docusaurus {
+  background: #2c2c2c;
+}
+
+.navbar {
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+}
 
 .navbar__brand {
   margin-right: 0;
@@ -41,4 +44,15 @@
 
 .navbar__item {
   transform: translateY(-2px);
+}
+
+@media (max-width: 996px) {
+  .navbar__toggle {
+    display: inherit;
+    margin-right: 1rem;
+  }
+}
+
+.table-of-contents__link:hover, .table-of-contents__link:hover code, .table-of-contents__link--active, .table-of-contents__link--active code {
+  color: var(--ifm-menu-color-active);
 }
