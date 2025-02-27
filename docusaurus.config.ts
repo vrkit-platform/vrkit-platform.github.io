@@ -103,8 +103,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Guides',
+              to: '/docs/guides',
             },
           ],
         },
@@ -134,7 +134,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/vrkit-platform',
+              href: 'https://github.com/vrkit-platform/vrkit-platform',
             },
           ],
         },
