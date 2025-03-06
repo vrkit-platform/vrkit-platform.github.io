@@ -1,0 +1,88 @@
+
+.grid {
+	width: min(80vw, 1000px);
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+	gap: 1rem; /* Adds spacing between the grid items */
+	padding: 2rem;
+	position: relative;
+	margin: 1rem 2rem 0 2rem;
+	
+	.item {
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-radius: 0.5rem;
+		
+		padding: 0.5rem 1rem;
+		background: rgba(0, 0, 0, 0.05);
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		
+		//height: 250px;
+		//min-height: 250px;
+		//max-height: 250px;
+		
+		width: max(250px, 100%);
+		
+		.top {
+			.icon {
+				height: 100px;
+				max-height: 100px;
+				min-height: 100px;
+				width: auto;
+				overflow: hidden;
+				
+			}
+		}
+		
+		.content {
+			display: flex;
+			flex-direction: column;
+			overflow: hidden;
+			align-items: flex-start;
+			justify-content: center;
+			flex: 0 0 auto;
+			max-width: 100%;
+			
+			.name {
+				opacity: 0.85;
+				font-size: 1.4rem;
+				font-weight: 500;
+				flex: 0 0 auto;
+			}
+			
+			.author {
+				opacity: 0.65;
+				font-size: 1.1rem;
+				font-weight: 400;
+				flex: 0 0 auto;
+			}
+			
+			.description {
+				margin-top: 0.5rem;
+				opacity: 0.45;
+				font-weight: 100;
+				flex: 0 1 auto;
+				
+				display: -webkit-box;
+				justify-self: stretch;
+				white-space: break-spaces;
+				-webkit-box-orient: vertical;
+				-webkit-line-clamp: clamp(2, 3, 4);
+			}
+		}
+		
+	}
+}
+
+.ellipsis {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	max-width: 100%;
+}
+

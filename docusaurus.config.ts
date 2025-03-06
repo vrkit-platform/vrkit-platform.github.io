@@ -80,7 +80,7 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {to: '/download', label: 'Download', position: 'left'},
+        {to: '/', label: 'Download', position: 'left'},
         {to: '/plugins', label: 'Plugins', position: 'left'},
           {
           type: 'docSidebar',

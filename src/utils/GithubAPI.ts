@@ -1,3 +1,5 @@
+import { fetchJson } from "./FetchHelper"
+
 export interface GithubRelease {
   url:string
   
@@ -106,19 +108,11 @@ export interface GithubAsset {
 
 export type GithubRepoPath = `${string}/${string}`
 
+export const GithubOrgCDNUri = `https://cdn.jsdelivr.net/gh/vrkit-platform`
+
 export async function getGithubLatestRelease(repoPath:GithubRepoPath = "vrkit-platform/vrkit-platform"):Promise<GithubRelease> {
   const url = `https://api.github.com/repos/${repoPath}/releases/latest`
   
-  try {
-    const response = await fetch(url)
-    if (!response.ok) {
-      throw new Error(`GitHub API error: ${response.status}`)
-    }
-    
-    return await response.json()
-  } catch (error) {
-    console.error("Error fetching latest release:", error)
-    return null
-  }
+  return await fetchJson(url, "Error fetching latest release")
 }
 

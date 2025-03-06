@@ -27,3 +27,6 @@ _site
 .jekyll-metadata
 .jekyll-cache
 
+*.mp4
+*.kdenlive
+*.tiff

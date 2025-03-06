@@ -1,0 +1,110 @@
+---
+sidebar_position: 2
+---
+
+# Dashboards
+
+In the context of _*VRKit*_, a dashboard is best described as a combination of 1 or more overlays, and
+any overlay specific settings as well as the size & positioning for each overlay.
+
+You can create as many dashboards, each with up to 8 overlays, as you choose.
+
+:::tip
+You likely will settle on a single dash once you've played around with
+overlays and their properties, so be sure to set your favorite as the `Default`.
+
+The default dash is opened upon a connection to iRacing being established
+(if no dashboard is currently open).
+:::
+
+## List
+
+The dashboard list view is exactly as it sounds.
+
+It's a list of all your dashboards.  You can select a dashboard from the list to open it.  You can also create new dashboards, delete existing dashboards, and set the default dashboard from this view.
+<Screenshot alt="Dashboards List" src="/img/screenshots/vrkit-dash-list.png"/>
+
+### Global Actions
+
+Actions available, which do not affect an existing dashboard.
+
+#### Create New
+
+To create a new dashboard, click the `+ Create` button in the top right corner of the dashboard list view.
+
+### Actions
+
+#### Open/Launch
+
+Open/Launch the dashboard; the [Dashboard Controller](./dashboard-controller) window will pop up & you
+are off to the races.
+
+
+#### Edit Settings for Dashboard & Overlays
+
+#### More Actions
+
+The 3 dots at the far right of the list item presents additional actions.
+
+##### Delete
+
+This will delete the dashboard and all of its overlay configurations.
+
+##### Set as Default
+
+Set the represented dashboard as the default/favorite, which is used
+when a connection to iRacing is established, when no other dashboard is
+currently open.
+
+
+## Settings
+
+Dashboard settings allows you to configure things like the dashboard name,
+an icon for easy recall, addition and removal of overlays etc.
+
+It also is the place where you can edit overlay specific settings.  For instance,
+the Clock overlay settings include a `24hr` mode, which is configured by a boolean/switch value.
+
+:::tip
+If you'd like more info related to overlay settings & how to use them, checkout the
+developer documentation for [Plugins](/docs/developer/plugins/create-plugin-quick-start).
+:::
+
+<Screenshot alt="Dashboard Editor" src="/img/screenshots/vrkit-dash-editor-01.png"/>
+
+### Enable Render Targets
+
+By default, both `OpenXR/VR` & `Screen` outputs are enabled; however if you only plan
+to use `OpenXR/VR`, you should uncheck `Screen` & visa-versa to save system resources.
+
+### Add Overlay
+
+To add an overlay to a dashboard, in the desired dashboard's settings editor, click the `+ Overlay`
+button.
+
+When clicked, the Overlay Picker opens, where you will select the overlay you wish to add as seen below.
+
+<Screenshot alt="Dashboard Editor Add Overlay" src="/img/screenshots/vrkit-dash-editor-add-overlay.png"/>
+
+You can find additional overlays via the [Plugin Management](./plugin-management) system.
+
+### Remove Overlay
+
+To remove an overlay click the trash can icon to the right of the overlays list entry.
+
+### Overlay Settings
+
+:::info
+Overlay positioning & sizing is done interactively & at the moment can not be done manually.
+
+To adjust the layout, Open/Launch the dashboard & click the layout editor button.
+:::
+
+As you can see below, the `Leaderboard` overlay currently has just 1 settings, the mode.  The dropdown
+allows you to select the mode you'd like to see in this dashboard.
+
+:::tip
+You may need to Re-Open/Re-Launch the dashboard after making settings changes in order for them to take effect.
+:::
+
+<Screenshot alt="Dashboard Editor Overlay Settings" src="/img/screenshots/vrkit-dash-editor-overlay-settings.png"/>

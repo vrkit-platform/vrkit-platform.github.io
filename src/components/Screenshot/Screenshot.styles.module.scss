@@ -1,0 +1,26 @@
+.imageContainer {
+	display: inline-block;
+	position: relative;
+	
+	
+	img {
+		display: block;
+		border: 5px solid rgba(0,0,0,0.2); /* Base border color */
+		box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2), -2px -2px 8px rgba(0,0,0, 0.9); /* Bevel effect */
+		border-radius: 8px; /* Optional: rounded corners */
+	}
+	
+	&::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		border-radius: 8px; /* Match border-radius of image */
+		box-shadow: inset 2px 2px 4px rgba(255, 255, 255, 0.6),
+		inset -2px -2px 4px rgba(0, 0, 0, 0.2);
+		z-index: -1; /* Place behind the image */
+	}
+	
+}
