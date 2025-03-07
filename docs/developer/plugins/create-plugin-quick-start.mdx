@@ -17,14 +17,14 @@ your new plugin from the repository you just created.
 The following files must all be modified to properly define
 your plugin, enabling others to access it via the `plugin management system`.
 
-- VRKit Plugin [plugin.json5](plugin.json5)
-- NPM Package [package.json](package.json)
-- GitHub Workflow [.github/workflows/release.yml](.github/workflows/release.yml)
+- VRKit Plugin [plugin.json5](https://github.com/vrkit-platform/vrkit-plugin-template/blob/main/plugin.json5)
+- NPM Package [package.json](https://github.com/vrkit-platform/vrkit-plugin-template/blob/main/package.json)
+- GitHub Workflow [.github/workflows/release.yml](https://github.com/vrkit-platform/vrkit-plugin-template/blob/main/.github/workflows/release.yml)
 
 ## Development & Building
 
 VRKit uses `esbuild` to bundle all the required resources and
-capabilities. The required [esbuild.config.js](esbuild.config.js), which
+capabilities. The required [esbuild.config.js](https://github.com/vrkit-platform/vrkit-plugin-template/blob/main/esbuild.config.js), which
 is preconfigured to demonstrate externals, etc is invoked by running
 either `yarn build` for production and `yarn dev` for development.
 
@@ -52,10 +52,10 @@ you will see updates every time the source changes.
 
 ## Release & Publishing
 
-> IMPORTANT: Make sure you use a newly generated UUID in [plugin.json5](plugin.json5)
+> IMPORTANT: Make sure you use a newly generated UUID in [plugin.json5](https://github.com/vrkit-platform/vrkit-plugin-template/blob/main/plugin.json5)
 > & the same UUID when publishing to [vrkit-plugin-manifest](https://github.com/vrkit-platform/vrkit-plugin-manifest)
 
-These processes are taken care of via [GitHub Actions](.github/workflows/release.yml).
+These processes are taken care of via [GitHub Actions](https://github.com/vrkit-platform/vrkit-plugin-template/blob/main/.github/workflows/release.yml).
 
 - When your plugin is ready to publish,
 clone [vrkit-plugin-manifest](https://github.com/vrkit-platform/vrkit-plugin-manifest).
