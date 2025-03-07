@@ -4,5 +4,6 @@
   "link": {
     "type": "generated-index",
     "description": "Guides & Tutorials for creating plugins"
-  }
+  },
+  "collapsed": false
 }
