@@ -40,7 +40,7 @@ export default function PluginsPage() {
             }}
           />
           <p>
-            <Link to="/docs/guides/plugins/create-plugin-quick-start">Create your own plugin</Link>
+            <Link to="/docs/developer/plugins/create-plugin-quick-start">Create your own plugin</Link>
             &nbsp;&nbsp;&bull;&nbsp;&nbsp;
             <a href="https://github.com/vrkit-platform/vrkit-platform.github.io/issues/new?assignees=&labels=bug&template=bug_report.md&title=">Report a bug</a>
           </p>
